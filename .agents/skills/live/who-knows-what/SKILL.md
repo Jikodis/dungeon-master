@@ -30,6 +30,16 @@ description: Use AT THE TABLE when the DM needs to know what a specific NPC know
 
 The `(as of last prep — may be stale)` qualifier is REQUIRED on every output. The NPC's "Knows about" section is a snapshot, updated by the post-session `prep/sessions` recap. If the topic emerged in the session that just happened, the file may not reflect it yet — switch to `prep/npcs` for an authoritative read.
 
+## If no file exists for the named NPC
+
+Recurring names get mentioned at the table before they're statted (e.g., "Factor Renn"). If `context/npcs/<slug>.md` doesn't exist after one index check, do NOT speculate or invent knowledge. Output exactly:
+
+```
+**<NPC name>** — no file (likely a minor or background NPC). Improvise; if they become recurring, run `prep/npcs` between sessions to stat them.
+```
+
+Then stop. One line, no bullets. Do NOT fall through to the regular template with model knowledge.
+
 ## Source of truth (REQUIRED — read ONLY these)
 
 - `context/npcs/<npc-slug>.md` (specifically the "Knows about" section)

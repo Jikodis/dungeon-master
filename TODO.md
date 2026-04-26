@@ -24,11 +24,7 @@ Upcoming features, known gaps, and ideas worth considering. Not a sprint plan �
 
 ## Conventions / spec drift to clean up
 
-- **`PCs/` `arc_state` typing.** Currently mixes kebab-case slugs and freeform parentheticals (e.g. `searching-for-brother (currently dormant lead)`). Pick one convention; if anything ever filters by `arc_state`, the parenthetical breaks comparisons. Possibly add `arc_notes:` for prose.
-- **`parent_location: none`.** Unidiomatic YAML (`none` parses as the string `"none"`). Either omit when empty or use `null`.
-- **`<!-- last updated: prep -->` ambiguity.** The marker can't distinguish "between session 18 and 19" from "between session 22 and 23". Consider `prep-pre-sNN` or include a date.
-- **Stub NPC files for "mentioned but not statted" recurring names** (e.g. Factor Renn). Decide whether `live/who-knows-what` should fail open or fall back to "no file — likely a minor NPC."
-- **Session frontmatter schema** for `prep` sessions vs completed sessions isn't documented in the spec — only the completed-session schema is shown. Codify.
+- **`<!-- last updated: prep -->` ambiguity.** The marker can't distinguish "between session 18 and 19" from "between session 22 and 23". Consider `prep-pre-sNN` or include a date. Deferred — only matters once you ever look back at *which* prep batch touched a file.
 
 ## Documentation
 

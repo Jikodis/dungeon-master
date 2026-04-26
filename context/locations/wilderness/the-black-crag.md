@@ -2,7 +2,6 @@
 name: The Black Crag
 type: wilderness
 region: iron-reach
-parent_location: none
 tier: 1-2
 tags: [wilderness, iron-reach, caravan-route]
 ---

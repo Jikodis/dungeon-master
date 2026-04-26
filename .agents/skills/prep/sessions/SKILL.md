@@ -62,6 +62,40 @@ description: Use BEFORE a session to draft the prep doc, or AFTER a session to g
 
 ## Output conventions
 
+### Session frontmatter schemas
+
+There are TWO session file types and they have different frontmatter. Match the schema exactly when proposing or writing a file.
+
+**Prep file** — `sessions/NNN-prep.md`, written before the session. Reflects intent, not history.
+```yaml
+---
+session: <NN>                           # integer, the upcoming session number
+date: <YYYY-MM-DD>                      # planned table date
+status: prep                            # literal, distinguishes from completed
+expected_locations: [<slug>, ...]       # locations you expect the party to visit
+expected_npcs: [<slug>, ...]            # NPCs you expect to feature
+possible_npcs: [<slug>, ...]            # contingency-only NPCs (don't pre-stat as "appeared")
+quests_touched: [<slug>, ...]           # quests this prep advances
+---
+```
+
+**Completed file** — `sessions/NNN-headline.md`, written / updated after the session. Reflects what actually happened.
+```yaml
+---
+session: <NN>                           # integer
+date: <YYYY-MM-DD>                      # actual table date
+pcs_present: [<slug>, ...]              # PCs at the table this session
+locations_visited: [<slug>, ...]        # locations the party actually entered
+npcs_appeared: [<slug>, ...]            # NPCs who actually had screen time
+quests_touched: [<slug>, ...]           # quests that materially advanced
+---
+```
+
+Notes:
+- Completed files do NOT carry `status:` — their existence at `NNN-headline.md` (no `-prep` suffix) is the signal.
+- Do NOT carry `expected_*` / `possible_*` fields into the completed file — replace with the actuals (`pcs_present`, `locations_visited`, `npcs_appeared`).
+- When a prep file is "promoted" to completed, propose the rename + frontmatter swap as part of the post-session bookkeeping.
+
 ### Recap section
 - Narrative, past tense, 2-3 paragraphs.
 - Names PCs by character name, not player name.

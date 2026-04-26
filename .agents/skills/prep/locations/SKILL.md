@@ -39,7 +39,7 @@ description: Use when DESIGNING a new location (tavern, dungeon, town, wildernes
 ## Output conventions
 
 Location files have these sections (vary slightly by type):
-1. Frontmatter (name, type, region, parent_location, tags; type-specific: population, governance, tier)
+1. Frontmatter (name, type, region, parent_location, tags; type-specific: population, governance, tier). Omit `parent_location` entirely when there is no parent — do NOT write `parent_location: none` (YAML parses that as the string `"none"`, which breaks any future filter).
 2. `## Overview` — 2-3 sentences setting the place
 3. `## Districts` (towns) / `## Layout` (dungeons) / `## Terrain` (wilderness)
 4. `## Notable locations` (towns/dungeons) — list of sub-points

@@ -45,7 +45,8 @@ description: Use to PULL hooks from PC backstories into upcoming session prep, T
 5. NO file writes for queries.
 
 ## Output conventions
-- PC files keep `arc_state` as a short imperative phrase (e.g., "searching-for-brother", "looking-for-purpose").
+- `arc_state` is a single kebab-case slug — short imperative phrase (e.g., `searching-for-brother`, `looking-for-purpose`). One token, no spaces, no parentheticals. This is the field anything would filter on.
+- `arc_notes` (optional) is freeform prose qualifying the arc state (e.g., "Currently a dormant lead — last clue went cold in s9."). Use this for "currently dormant", "actively pursuing", date hints, or any nuance that doesn't fit a slug. NEVER stuff prose into `arc_state`.
 - `hooks_active` and `hooks_resolved` are kebab-case slugs that ideally match a quest slug.
 - "Things she/he'd do that surprise the table" section is preserved across updates — don't rewrite it without prompting.
 

@@ -4,7 +4,8 @@ class: ranger
 race: elf
 level: 3
 player: PLAYER-1
-arc_state: searching-for-brother (currently dormant lead)
+arc_state: searching-for-brother
+arc_notes: Currently a dormant lead — last clue went cold in s9.
 hooks_active: [the-stolen-bow]
 hooks_resolved: []
 tags: [pc, ranger, elf, kira]
