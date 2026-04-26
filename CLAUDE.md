@@ -6,15 +6,17 @@ This repo is the campaign brain for a long-running D&D 5e campaign (currently 18
 
 - `context/` — campaign canon (world, NPCs, locations, quests, PCs, tables, maps). The current state of the world.
 - `sessions/` — chronological log of what happened, one file per session. Source of truth for past events.
-- `skills/prep/` — 7 rich skills for deskwork: prep before a session, bookkeeping after.
-- `skills/live/` — 7 terse skills for at-the-table use during play.
+- `.agents/skills/prep/` — rich skills for deskwork: prep before a session, bookkeeping after. (Also discoverable as `.claude/skills/prep/` via symlink.)
+- `.agents/skills/live/` — terse skills for at-the-table use during play.
+- `.agents/skills/meta/` — skills about the OS itself (e.g., the tour onboarding skill).
+- `context/rules/srd/` — vendored 5e SRD (CC-BY-4.0, oldmanumby/dnd.srd). Read by rules/spell/statblock live skills.
 - `docs/superpowers/` — design docs and implementation plans (meta, not gameplay).
 
 ## Two skill families
 
-**Prep skills** (`skills/prep/`) are deliberate. They read full context, produce rich output (multiple paragraphs, structured Markdown), and **propose changes to canon for user approval before writing files**.
+**Prep skills** (`.agents/skills/prep/`) are deliberate. They read full context, produce rich output (multiple paragraphs, structured Markdown), and **propose changes to canon for user approval before writing files**.
 
-**Live skills** (`skills/live/`) run at the table. They are intentionally constrained:
+**Live skills** (`.agents/skills/live/`) run at the table. They are intentionally constrained:
 - Output ≤ 5–10 lines, formatted to a strict template.
 - They **must not read `sessions/`** (too slow, too much context).
 - They **must not write files**.
