@@ -20,7 +20,6 @@ Upcoming features, known gaps, and ideas worth considering. Not a sprint plan �
 ## Rules / SRD upgrades
 
 - **Move to 2024 rules SRD (5.2.1) when the table converts.** The vendored SRD is 5.1 (2014 rules + Nov 2018 errata) per [oldmanumby/dnd.srd](https://github.com/OldManUmby/dnd.srd). When the campaign upgrades to the 2024 PHB rules, swap `context/rules/srd/` for a 5.2.1 Markdown source and update `context/rules/srd/_INDEX.md`. Skills only depend on the path — no code changes needed.
-- **Consider vendoring as a git submodule** so SRD upstream fixes flow in cleanly. Trade-off: simpler today as a flat directory; cleaner long-term as a submodule.
 - **Magic items.** SRD covers a subset; full DMG items aren't there. If `prep/magic-item` is built, decide whether to ground it in SRD items only (safe) or allow model-knowledge fallback labeled `(unverified — not in SRD)`.
 
 ## Conventions / spec drift to clean up
