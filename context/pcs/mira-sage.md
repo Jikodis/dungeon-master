@@ -5,7 +5,7 @@ race: half-elf
 level: 3
 player: PLAYER-3
 arc_state: chasing-the-real-history
-hooks_active: [forbidden-knowledge, family-name-erased]
+hooks_active: [forbidden-knowledge, family-name-erased, refuses-to-be-surprised]
 hooks_resolved: []
 tags: [pc, wizard, half-elf, mira-sage]
 ---
@@ -20,6 +20,9 @@ Eager, a bit too eager. Asks NPCs questions other party members consider rude. K
 
 ## Backstory hook
 Family name was struck from a noble register two generations ago for reasons no one will tell her. She's been digging through libraries for years.
+
+## Why Divination
+At thirteen, Mira found the gap in her own family's history — and realized she had walked past it every day for thirteen years and felt nothing. That violation, more than the missing history itself, is the wound she actually carries. She studies Divination because it is the only school whose entire purpose is to make the hidden announce itself. Portent isn't a class feature to her; it's a vow. Other wizards study magic to act on the world; Mira studies it to never again be acted upon without knowing.
 
 ## Arc state
 The cult's "memory erasure" angle is uncomfortably close to her family mystery. Player hasn't said this out loud yet but has been steering toward it.
