@@ -11,6 +11,9 @@ This repo is the campaign brain for a long-running D&D 5e campaign (currently 18
 - `.agents/skills/meta/` — skills about the OS itself (e.g., the tour onboarding skill).
 - `context/rules/srd/` — vendored 5e SRD (CC-BY-4.0, oldmanumby/dnd.srd). Read by rules/spell/statblock live skills.
 - `docs/superpowers/` — design docs and implementation plans (meta, not gameplay).
+- `tools/whisperx/` — local WhisperX transcription pipeline (audio → speaker-attributed Markdown). See `tools/whisperx/README.md`.
+- `recordings/` — session audio (gitignored). Drop files here for transcription.
+- `transcripts/` — committed text transcripts produced by `tools/whisperx/transcribe.py`. Input to the `prep/transcript-import` skill.
 
 ## Two skill families
 

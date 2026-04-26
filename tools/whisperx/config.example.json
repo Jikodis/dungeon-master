@@ -1,0 +1,24 @@
+{
+  "model": "large-v3",
+  "language": "en",
+  "device": "cuda",
+  "compute_type": "float16",
+  "batch_size": 16,
+  "diarization": {
+    "model_name": "pyannote/speaker-diarization-community-1",
+    "num_speakers": 5,
+    "min_speakers": null,
+    "max_speakers": null
+  },
+  "hf_token_env": "HF_TOKEN",
+  "extra_vocab_file": "tools/whisperx/extra_vocab.txt",
+  "transcripts_dir": "transcripts",
+  "speaker_map": {
+    "SPEAKER_00": "DM",
+    "SPEAKER_01": "Kira (PLAYER-1)",
+    "SPEAKER_02": "Brand (PLAYER-2)",
+    "SPEAKER_03": "Mira-sage (PLAYER-3)",
+    "SPEAKER_04": "Thorn (PLAYER-4)"
+  },
+  "campaign_blurb": "A Dungeons and Dragons session set in Velara's Iron Reach. The party is level 3 and currently investigating the Silent Flame cult out of the town of Hollowgate."
+}

@@ -1,0 +1,46 @@
+# Hand-curated vocabulary not auto-extracted from context/ indexes.
+# One term per line. Lines starting with # and blank lines are ignored.
+# Multi-word names are fine — they get split into the hotword string.
+
+# Cult tiers and terminology
+Wick
+Ember
+Silent Flame
+
+# Currency and measures
+gp
+sp
+cp
+copper piece
+silver piece
+gold piece
+
+# 5e terms Whisper commonly mishears
+cantrip
+prestidigitation
+thaumaturgy
+arcane focus
+spell slot
+saving throw
+attack roll
+ability check
+advantage
+disadvantage
+proficiency
+hit dice
+short rest
+long rest
+spell save DC
+armor class
+hit points
+
+# Calendar / setting
+Velara
+Velaran
+Year of Iron
+YoI
+Iron Reach
+Merchant Guild
+Quiet War
+
+# In-jokes and recurring table phrases (add your own)

@@ -1,3 +1,16 @@
 .superpowers/
 .DS_Store
 .claude/settings.local.json
+
+# Audio recordings — large binary files, do not commit
+recordings/*
+!recordings/README.md
+!recordings/.gitkeep
+
+# WhisperX local config (may contain HF token references) and model caches
+tools/whisperx/config.json
+tools/whisperx/.cache/
+*.pyc
+__pycache__/
+.venv/
+venv/
