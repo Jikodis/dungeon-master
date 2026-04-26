@@ -29,7 +29,7 @@ That is the entire response. No prose before or after. No headers. No explanatio
 
 - `context/world/_INDEX.md` (for region flavor)
 - `context/locations/_INDEX.md` (for the current region's flavor)
-- The current region's faction `_INDEX.md` if the user named a faction in the request
+- `context/world/factions/_INDEX.md` if the user named a faction in the request
 
 DO NOT read:
 - Any individual NPC file

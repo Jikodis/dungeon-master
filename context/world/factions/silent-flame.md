@@ -2,7 +2,8 @@
 name: Silent Flame
 type: cult
 disposition: hostile
-region: silent-coast, iron-reach (recently)
+region: [silent-coast, iron-reach]
+region_notes: iron-reach presence is recent (post-s17)
 status: active-and-spreading
 known_to_party: rumor + symbol-evidence (as of s18)
 tags: [cult, antagonist, silent-flame]

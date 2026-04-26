@@ -22,6 +22,8 @@ This repo is the campaign brain for a long-running D&D 5e campaign (currently 18
 
 When a request could match either family, prefer the live skill if the user mentions being mid-session, time pressure, or short output.
 
+**Live-skill freshness assumption.** Live skills read `context/` snapshots only — they trust that canon is current as of the last completed prep/sessions run. If the table just learned something that hasn't been propagated to entity files yet, a live skill may give stale info. After running a live skill mid-session, treat its output as advisory until the post-session `prep/sessions` recap propagates the deltas.
+
 ## Two non-negotiable rules
 
 ### 1. Propose-first writes

@@ -3,7 +3,8 @@ title: Cult of the Silent Flame
 status: active
 tier: 1-3 (will scale)
 related_npcs: [lord-verros, high-priest-aldon, tavernkeep-mira]
-related_locations: [silent-coast, hollowgate, the-black-crag]
+related_locations: [hollowgate, the-black-crag]
+related_regions: [silent-coast]
 opened: s11
 last_touched: s18
 tags: [active, campaign-arc, silent-flame]

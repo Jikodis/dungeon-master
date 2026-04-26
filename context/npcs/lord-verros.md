@@ -34,6 +34,6 @@ Low, dry, never raises it. Pauses before answering questions, as if rehearsing t
 ## History
 - **s12** — First met the party in passing at a Guild reception.
 - **s15** — Party did an unrelated job near his warehouse; he noticed.
-- **s18** — Party found his smuggling brand on the caravan wreckage, alongside the cult symbol.
+- **s18** — Party found his smuggling brand on the caravan wreckage, alongside the cult symbol. status: wary → hostile.
 
 <!-- last updated: s18 -->

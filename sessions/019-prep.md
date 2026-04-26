@@ -3,7 +3,8 @@ session: 19
 date: 2026-04-25
 status: prep
 expected_locations: [hollowgate, sewers-east]
-expected_npcs: [tavernkeep-mira, possibly: tinker, possibly: apprentice, cult-patrol]
+expected_npcs: [tavernkeep-mira, cult-patrol]
+possible_npcs: [tinker, apprentice]
 quests_touched: [cult-of-the-silent-flame, the-missing-caravan]
 ---
 

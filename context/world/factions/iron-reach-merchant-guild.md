@@ -2,7 +2,8 @@
 name: Iron Reach Merchant Guild
 type: trade-political-organization
 disposition: neutral-leaning-ally
-region: iron-reach (HQ in Hollowgate; influence in Aurelle)
+region: [iron-reach]
+region_notes: HQ in Hollowgate; influence extends into Aurelle
 status: dominant-but-distracted
 known_to_party: extensively
 tags: [guild, ally, iron-reach]

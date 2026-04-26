@@ -16,7 +16,7 @@ description: Use AT THE TABLE for a quick 5e rules clarification. Returns one sh
 
 ```
 **Ruling:** <1-paragraph answer, ≤4 sentences>
-**Source:** <SRD section / page reference>
+**Source:** <SRD section or chapter name — e.g. "SRD: Combat / Cover" — never invent page numbers>
 **House-rule note:** <if context/house-rules.md modifies this rule, what the house version is — otherwise omit this line>
 ```
 
